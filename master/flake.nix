@@ -11,6 +11,7 @@
   inputs.src-crap-master.ref   = "refs/heads/master";
   inputs.src-crap-master.owner = "icyphox";
   inputs.src-crap-master.repo  = "crap";
+  inputs.src-crap-master.dir   = "";
   inputs.src-crap-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
