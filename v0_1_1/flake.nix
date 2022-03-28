@@ -11,7 +11,6 @@
   inputs.src-crap-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-crap-v0_1_1.owner = "icyphox";
   inputs.src-crap-v0_1_1.repo  = "crap";
-  inputs.src-crap-v0_1_1.dir   = "";
   inputs.src-crap-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
